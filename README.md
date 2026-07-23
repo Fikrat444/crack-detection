@@ -32,3 +32,12 @@ project root as `Conglomerate Concrete Crack Detection/` before running the note
 crack_detection.ipynb   # full pipeline: data loading, training, evaluation, curve fitting
 outputs/                # figures, metrics, synthetic samples, training history
 ```
+## Task coverage
+
+| Requirement | Notebook section |
+| --- | --- |
+| Data visualization and analysis | 1 |
+| CNN for crack segmentation, benchmarking, room for improvement | 2.1–2.11 |
+| Regression equations for at least 3 samples | 3.1–3.4 |
+| 10 synthetic binary images (circle and sine, single and multiple) | 4.1 |
+| Inverse task: fitting and coefficient comparison | 5.1–5.3 |
